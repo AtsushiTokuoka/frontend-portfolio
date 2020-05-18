@@ -1,0 +1,50 @@
+/*-----------------------------------
+  gridレイアウト関連、カスタマイズ変数
+-------------------------------------*/
+// breakpoint
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+// maxwidth
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+);
+
+/*-----------------------------------
+  font関連、カスタマイズ変数
+-------------------------------------*/
+// font-family
+$font-family-sans-serif: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans", Meiryo, sans-serif;
+// font-size
+$font-size-base: 16; // px値を設定。mixin font-size()によって、px ⇒ remへ変換される
+// font-weight
+$font-weight-base: 400;
+// line-height
+$line-height-base: 1.5;
+// color
+$body-color: #4a4a4a;
+
+/*-----------------------------------
+  aタグ関連、カスタマイズ変数
+-------------------------------------*/
+// link color
+$link-color: #007bff;
+// text-decoration
+$link-decoration: none;
+// hover color
+$link-hover-color: darken($link-color, 15%);
+// hover decoration
+$link-hover-decoration: underline;
+
+/*-----------------------------------
+  background-color
+-------------------------------------*/
+$body-bg: #f3f3f3;

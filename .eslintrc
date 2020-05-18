@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "es2017": true,
+    "commonjs": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "$": "readonly"
+  }
+}
